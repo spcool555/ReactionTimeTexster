@@ -1,0 +1,205 @@
+        #shape {
+			width: 150px;
+			height: 150px;
+			background-color: red;
+			display: none;
+			position: relative;
+		}
+
+		#shapeSection {
+			margin: 5 auto;
+			margin-right: : 40px;
+			width: 1000px;
+			height: 100%;
+			border: 5px #000000 solid;
+			background-color: #ffffff;
+		}
+
+		.text {
+			margin: 15px;
+		}
+		
+		.textSection {
+			border: 2px #000 solid;
+			border-radius: 1em;
+			background-color: #0099ff;
+			margin: 5px;
+			text-align: center;
+			font-size: 20px;
+			color: #000000;
+			float: left;
+		}
+
+		.textSection span {
+			font-weight: Bold;
+		}
+
+		.textSection input {
+		width: 35%;
+		margin: 5px;
+	    }
+
+	    #note {
+	    	font-size: 11px;
+	    	font-weight: Bold;
+	    }
+
+	    #gameIsOn {
+	    	margin: 5px;
+	    	display: none;
+	    	color: #000000;
+	    	font-size: 19px;
+	    	font-weight: 750;
+	    }
+
+	    .modeSection {
+			border: 2px #000 solid;
+			border-radius: 1em;
+			background-color: #0099ff;
+			margin: 5px;
+			text-align: justify;
+			font-size: 20px;
+			color: #000000;
+			float: left;
+			width: 95%;
+		}
+
+		.modeSection h4 {
+			text-align: center;
+		}
+
+		#missedSection {
+			display: none;
+		}
+
+		@media all and (min-width: 1024px) and (max-width:1300px) {
+			.textSection { 
+	         float:none;
+	         width:100%; 
+	        }
+
+	        #shapeSection {
+	        	width: 105%;
+	        	height: 490px;
+	        }
+
+	        .modeSection {
+	        	width: 100%
+			}
+
+			#shape {
+				max-width: 70px;
+				max-height: 70px;
+				position: fixed;
+			}
+		}
+
+		@media all and (min-width: 720px) and (max-width:1023px) {
+			.textSection { 
+	         float:none;
+	         width:100%; 
+	        }
+
+	        #shapeSection {
+	        	width: 580px;
+	        	height: 420px;
+	        }
+
+	        .modeSection {
+	        	width: 100%
+			}
+
+			#shape {
+				max-width: 70px;
+				max-height: 70px;
+				position: fixed;
+			}
+		}
+
+		@media all and (min-width: 500px) and (max-width:719px) {
+			.textSection { 
+	         float:none;
+	         width:100%; 
+	        }
+
+	        #shapeSection {
+	        	width: 105%;
+	        	height: 420px;
+	        }
+
+	        .modeSection {
+	        	width: 100%
+			}
+
+			#shape {
+				max-width: 50px;
+				max-height: 50px;
+				position: fixed;
+			}
+		}
+
+		@media all and (max-width:499px) and (min-width:421px){
+			.textSection { 
+	         float:none;
+	         width:100%; 
+	        }
+
+	        #shapeSection {
+	        	width: 105%;
+	        	height: 420px;
+	        }
+
+	        .modeSection {
+	        	width: 100%
+			}
+
+			#shape {
+				max-width: 50px;
+				max-height: 50px;
+				position: fixed;
+			}
+		}
+
+		@media all and (max-width:420px) and (min-width:371px){
+			.textSection { 
+	         float:none;
+	         width:100%; 
+	        }
+
+	        #shapeSection {
+	        	width: 105%;
+	        	height: 420px;
+	        }
+
+	        .modeSection {
+	        	width: 100%
+			}
+
+			#shape {
+				max-width: 50px;
+				max-height: 50px;
+				position: fixed;
+			}
+		}
+
+	    @media all and (max-width:370px){
+		    .textSection { 
+	         float:none;
+	         width:100%; 
+	        }
+
+	        #shapeSection {
+	        	width: 105%;
+	        	height: 420px;
+	        }
+
+	        .modeSection {
+	        	width: 100%
+			}
+
+			#shape {
+				max-width: 50px;
+				max-height: 50px;
+				position: fixed;
+			}
+	    }
